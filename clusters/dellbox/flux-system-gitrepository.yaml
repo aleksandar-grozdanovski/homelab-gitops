@@ -9,3 +9,5 @@ spec:
   ref:
     branch: main
   url: https://github.com/aleksandar-grozdanovski/homelab-gitops
+  secretRef:
+    name: github-token
