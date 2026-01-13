@@ -10,7 +10,7 @@ metadata:
   namespace: api
 spec:
   progressDeadlineSeconds: 600
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 10
   selector:
     matchLabels:
@@ -86,5 +86,5 @@ status:
     type: Progressing
   observedGeneration: 1
   readyReplicas: 1
-  replicas: 2
+  replicas: 1
   updatedReplicas: 1
