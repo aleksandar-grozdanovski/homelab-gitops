@@ -1,0 +1,5 @@
+# Plaintext secret manifests must never be committed.
+*.secret.yaml
+*.secret.yml
+*.decrypted.yaml
+*.decrypted.yml
